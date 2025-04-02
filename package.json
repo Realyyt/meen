@@ -1,21 +1,16 @@
 {
   "name": "gims-whatsapp-bot",
   "version": "1.0.0",
-  "description": "Interactive WhatsApp Bot for Guhan Industrial Manufacturing Solutions",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
-  "engines": {
-    "node": ">=16"
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "dotenv": "^16.4.7",
-    "axios": "^1.6.7",
+    "express": "^4.21.2",
     "mongoose": "^8.1.3",
-    "winston": "^3.17.0"
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
